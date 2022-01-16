@@ -1,0 +1,10 @@
+Creating a new django project:
+$ python django-admin.py startproject <project-name>
+
+Creating a new django app:
+1. Create new app:
+$ python manage.py startapp <appname>
+2. Tell Django project about new app by adding it to INSTALLED_APPS tuple in project’s settings.py 
+3. Add mapping to app in project urls.py 
+4. In app’s directory, create urls.py file to direct incoming URL strings to views 
+5. In your app’s view.py, create required views ensuring they return HttpResponse object.

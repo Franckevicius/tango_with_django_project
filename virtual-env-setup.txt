@@ -1,0 +1,23 @@
+Setup:
+$ pip install virtualenv
+$ pip install virtualenvwrapper-win
+
+Setup virtual environments:
+$ cd <project-directory>
+$ virtualenv venv
+ 
+Start work session by switching on virtual environment `workon`. Finish work session with `deactivate`.
+$ .\Scripts\Activate.ps1
+$ python manage.py runserver
+$ deactivate
+
+Other:
+$ mkvirtualenv <name> - creates and activates a new virtual environment of name <name>.
+$ workon <name> - switches on a virtual environment of name <name>. 
+$ deactivate - switches off a virtual environment you are currently using. 
+$ rmvirtualenv <name> - deletes a virtual environment of name <name>.
+$ lsvirtualenv - lists all user-created virtual environments.
+
+
+
+Exclude virtual environment in .gitignore
