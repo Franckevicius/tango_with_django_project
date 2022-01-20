@@ -1,5 +1,8 @@
 pyvenv.cfg
 
+#Ignore scripts
+Scripts/
+
 # Ignore tests
 rango/tests/
 
