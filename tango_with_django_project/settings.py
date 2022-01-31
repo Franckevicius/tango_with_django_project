@@ -127,3 +127,6 @@ STATIC_URL = '/static/' #client side location
 
 MEDIA_ROOT = MEDIA_DIR #server side location
 MEDIA_URL = '/media/' #client side location
+
+
+LOGIN_URL = 'rango:login'
